@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/shoedog-client/node_modules
+/shoedog-client/.pnp
+/shoedog-client/.pnp.js
+
+# testing
+/shoedog-client/coverage
+
+# production
+/shoedog-client/build
+
+# misc
+/shoedog-client/.DS_Store
+.DS_Store
+/shoedog-client/.env.local
+/shoedog-client/.env.development.local
+/shoedog-client/.env.test.local
+/shoedog-client/.env.production.local
+
+/shoedog-client/npm-debug.log*
+/shoedog-client/yarn-debug.log*
+/shoedog-client/yarn-error.log*
